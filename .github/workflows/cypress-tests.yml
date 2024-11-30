@@ -1,0 +1,5 @@
+name: Cypress Component Tests
+on:
+  pull_request:
+  branches:
+  - main
