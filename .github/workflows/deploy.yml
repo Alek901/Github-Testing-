@@ -24,4 +24,7 @@ jobs:
       run: npm ci
 
     - name: Deploy application
-     
+      env:
+        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      run: 
+        npm start
